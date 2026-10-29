@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "noEmit": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "paths": {
+      "@/components/*": ["./dist/components/*"],
+      "@/composables/*": ["./dist/composables/*"]
+    }
+  },
+  "include": ["dist/**/*.js"]
+}

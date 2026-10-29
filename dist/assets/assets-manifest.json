@@ -1,0 +1,356 @@
+{
+  "official_website": "https://jardininfantilsenderos.com/",
+  "official_instagram": "https://www.instagram.com/jardininfantilsenderos/",
+  "assets": [
+    {
+      "file": "senderos-campus.jpeg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_0328-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 831664,
+      "description": "Equipo docente de Senderos con disfraces infantiles al aire libre",
+      "type": "image/jpeg",
+      "width": 2560,
+      "height": 1707
+    },
+    {
+      "file": "senderos-naturaleza.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/ca790c04-4429-4680-b2e7-76766e325f40.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 461432,
+      "description": "Sede real: salones con amplios ventanales, césped y vegetación tropical",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "senderos-principal.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2026/04/8369140-scaled.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 1843800,
+      "description": "Decoración botánica de helechos con transparencia",
+      "type": "image/png",
+      "width": 2560,
+      "height": 1709
+    },
+    {
+      "file": "senderos-logo.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/cropped-Logo-sin-fondo-17-1.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 16530,
+      "description": "Logotipo oficial del Jardín Infantil Senderos",
+      "type": "image/png",
+      "width": 1079,
+      "height": 360
+    },
+    {
+      "file": "senderos-transporte.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/elementor/thumbs/Diseno-sin-titulo2-scaled-rm0m6jxbbzqkhw2mqof56xyu50xpomtq1td2em8z3g.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 103965,
+      "description": "Imagen institucional del servicio de transporte propio",
+      "type": "image/png",
+      "width": 400,
+      "height": 350
+    },
+    {
+      "file": "senderos-granjeritos.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/elementor/thumbs/d3c59a61-7f0a-431c-aa19-af245d8bd9d0-scaled-rek0f5ez54n37nsnl0d82aqnbpe8poj0gu0xfzpaxs.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 36509,
+      "description": "Actividad de los granjeritos al aire libre en la sede",
+      "type": "image/jpeg",
+      "width": 300,
+      "height": 400
+    },
+    {
+      "file": "stella-sanabria.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/Captura-de-pantalla-2025-11-13-093745.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 383499,
+      "description": "Retrato institucional de Stella Sanabria, fundadora",
+      "type": "image/png",
+      "width": 550,
+      "height": 575
+    },
+    {
+      "file": "salome-patino.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2026/04/SALO-Horizontal.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 919415,
+      "description": "Retrato institucional de la docente Salomé Patiño",
+      "type": "image/png",
+      "width": 1329,
+      "height": 1329
+    },
+    {
+      "file": "laura-catano.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2026/04/Laura-Horizontal.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 780383,
+      "description": "Retrato institucional de la docente Laura Cataño",
+      "type": "image/png",
+      "width": 1063,
+      "height": 1063
+    },
+    {
+      "file": "daniela-nieto.png",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2026/04/DANI-Horizontal.png",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 1160481,
+      "description": "Retrato institucional de la docente Daniela Nieto",
+      "type": "image/png",
+      "width": 1329,
+      "height": 1329
+    },
+    {
+      "file": "jardin-panorama.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/b45779cd-bb39-48c1-bb39-f11c2fdf2b0c.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 569933,
+      "description": "Vista panorámica del jardín campestre de Senderos",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "aprendizaje-aula.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_04881-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 364929,
+      "description": "Docente acompaña actividad de aprendizaje de un grupo infantil",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "file": "explorar-naturaleza.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_0407-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 501559,
+      "description": "Entorno natural de Senderos, árboles y zona de juego",
+      "type": "image/jpeg",
+      "width": 1067,
+      "height": 1600
+    },
+    {
+      "file": "grupo-granjeritos.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_0470-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 564978,
+      "description": "Grupo infantil y docentes en la sede campestre",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "file": "granjeritos-naturaleza.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/b40d0949-b92d-4d7b-ac09-6d172cb2648d-scaled.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 767791,
+      "description": "Niños y docente con cabra en actividad al aire libre",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "ganso-granja.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_0135-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 678411,
+      "description": "Ganso de la granja escolar",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "file": "granja-aprendizaje.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/03459a51-c2c0-40be-8ac3-5956b6417ca2-scaled.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 834667,
+      "description": "Niños y docente interactúan con una cabra en el jardín",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "aula-senderos.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/573eaf06-4338-46c6-bfec-8fa3aacb3f82.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 367583,
+      "description": "Aula luminosa con mobiliario de colores a escala infantil",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "arte-creatividad.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/098b4060-3b50-440a-831b-454c247fee82-scaled.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 571631,
+      "description": "Niños realizan una actividad creativa en mesas al aire libre",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "cabra-granja.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/02707e1f-284e-466f-991e-1586a553a85a-scaled.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 573444,
+      "description": "Cabra en el jardín natural de Senderos",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "senderos-granja.mp4",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/8cea3908-7327-4f6e-b488-efefab0c50e8.mp4",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 3605458,
+      "description": "Video oficial vertical: grupo infantil participa en una actividad sentados al aire libre",
+      "type": "video/mp4",
+      "width": 720,
+      "height": 1280,
+      "duration_seconds": 9
+    },
+    {
+      "file": "juego-al-aire-libre.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/91d1bfa7-d205-4b8e-a3a8-903fd137b6c9-scaled.jpg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 806825,
+      "description": "Arenero y materiales de juego al aire libre",
+      "type": "image/jpeg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "cerdito-granja.jpg",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/IMG_0016-scaled.jpeg",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 444513,
+      "description": "Cerdito de la granja escolar",
+      "type": "image/jpeg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "file": "senderos-recorrido.mp4",
+      "source_url": "https://jardininfantilsenderos.com/wp-content/uploads/2025/11/1.mp4",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 5498543,
+      "type": "video/mp4",
+      "width": 480,
+      "height": 856,
+      "duration_seconds": 26,
+      "description": "Video oficial vertical: docente explica el acompañamiento del jardín con niños al fondo"
+    },
+    {
+      "file": "senderos-recorrido-poster.jpg",
+      "source_asset": "senderos-recorrido.mp4",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 120195,
+      "width": 480,
+      "height": 856,
+      "type": "image/jpeg",
+      "description": "Fotograma de portada extraído del video oficial"
+    },
+    {
+      "file": "senderos-granja-poster.jpg",
+      "source_asset": "senderos-granja.mp4",
+      "source_page": "https://jardininfantilsenderos.com/",
+      "bytes": 240404,
+      "width": 506,
+      "height": 900,
+      "type": "image/jpeg",
+      "description": "Fotograma de portada extraído del video oficial"
+    },
+    {
+      "file": "instagram-huerta.mp4",
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DS0qjhxknhm/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "bytes": 21674993,
+      "type": "video/mp4",
+      "codec": "vp09",
+      "width": 720,
+      "height": 1280,
+      "duration_seconds": 34.03333333333333,
+      "audio": false,
+      "description": "Video oficial de Instagram sobre huerta y granja; video DASH VP9 sin pista de audio, requiere validar reproducción en navegador"
+    },
+    {
+      "file": "instagram-huerta.jpg",
+      "bytes": 2484355,
+      "type": "image/jpeg",
+      "width": 3212,
+      "height": 5712,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DS0qjhxknhm/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Portada del reel oficial de huerta y granja"
+    },
+    {
+      "file": "instagram-pausa.jpg",
+      "bytes": 69588,
+      "type": "image/jpeg",
+      "width": 640,
+      "height": 1136,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DSyNXhRkdyo/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Foto oficial de Instagram sobre una pausa para conectar"
+    },
+    {
+      "file": "instagram-granja.jpg",
+      "bytes": 132160,
+      "type": "image/jpeg",
+      "width": 640,
+      "height": 1136,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DSIzm_MknCg/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Foto del reel oficial de actividades de la granja escolar"
+    },
+    {
+      "file": "instagram-autonomia.jpg",
+      "bytes": 212612,
+      "type": "image/jpeg",
+      "width": 1080,
+      "height": 1350,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DTl0x7jjTce/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Foto oficial de Instagram sobre autonomía infantil"
+    },
+    {
+      "file": "instagram-bienvenidos.jpg",
+      "bytes": 126043,
+      "type": "image/jpeg",
+      "width": 1080,
+      "height": 1080,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DTOlCXSDRQS/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Publicación oficial de bienvenida a Senderos"
+    },
+    {
+      "file": "instagram-celebracion.jpg",
+      "bytes": 181476,
+      "type": "image/jpeg",
+      "width": 1215,
+      "height": 2160,
+      "source_url": "https://www.instagram.com/jardininfantilsenderos/reel/DXhttZigETy/",
+      "source_page": "https://www.instagram.com/jardininfantilsenderos/",
+      "description": "Publicación oficial de celebración en Senderos"
+    }
+  ],
+  "verified_contact": {
+    "website_whatsapp": "https://wa.me/573151799124",
+    "address": "Km 6 vía Pereira–Cerritos, Entrada 3 Los Lagos, Casa 17",
+    "city": "Pereira, Risaralda, Colombia"
+  },
+  "verified_services": [
+    "Párvulos: 18–24 meses",
+    "Prejardín: 2 años",
+    "Jardín: 3–4 años",
+    "Transición: 4–5 años",
+    "Montessori y aprendizaje experiencial",
+    "Huerta y granja escolar",
+    "Sede campestre de más de 2.000 m²",
+    "Transporte propio"
+  ]
+}

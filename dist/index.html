@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#224d39" />
+    <title>
+      Senderos · Un mundo por descubrir | Jardín infantil en Pereira
+    </title>
+    <meta
+      name="description"
+      content="Un jardín infantil campestre en Cerritos, Pereira. Montessori, huerta, granja y experiencias reales para crecer felices, desde los 18 meses hasta los 5 años."
+    />
+    <meta property="og:title" content="Senderos · Un mundo por descubrir" />
+    <meta
+      property="og:description"
+      content="Pequeños pasos. Grandes descubrimientos. Conoce una infancia que crece con la naturaleza en Cerritos, Pereira."
+    />
+    <meta
+      property="og:image"
+      content="https://senderos-jardin-infantil-sebaz.vercel.app/assets/jardin-panorama.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://senderos-jardin-infantil-sebaz.vercel.app" />
+    <link rel="canonical" href="https://senderos-jardin-infantil-sebaz.vercel.app/" />
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Outfit:wght@400;450;500;550;600;650;700;750&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="/assets/granjeritos-naturaleza.jpg" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "@/components/": "/components/",
+          "@/composables/": "/composables/"
+        }
+      }
+    </script>
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="announcement">
+      <span class="tiny-flower">✳</span> Un lugar para crecer, a su propio ritmo
+      <span class="announcement-location">Cerritos, Pereira · Colombia</span>
+    </div>
+    <header class="site-header" data-component="ActionHeaderTA">
+      <a class="brand" href="#inicio" aria-label="Senderos, inicio"
+        ><img
+          src="/assets/senderos-logo.png"
+          alt="Jardín Infantil Senderos"
+          width="187"
+          height="63"
+      /></a>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#esencia">Nuestra esencia</a><a href="#etapas">Etapas</a
+        ><a href="#momentos">La vida en Senderos</a><a href="#equipo">Equipo</a>
+      </nav>
+      <a class="button button-small header-cta" href="#visitanos"
+        >Ven a conocernos <span aria-hidden="true">↗</span></a
+      >
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-controls="main-nav"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main id="contenido">
+      <section class="hero container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="little-dot"></span> JARDÍN INFANTIL CAMPESTRE
+          </p>
+          <h1 id="hero-title">
+            Pequeños pasos.<br />Grandes<br /><span class="hand-underline"
+              >descubrimientos.</span
+            >
+          </h1>
+          <p class="hero-description">
+            Hay una forma más natural de crecer.<br />Con las manos en la
+            tierra, la curiosidad despierta y el corazón feliz.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#visitanos"
+              >Descubre Senderos <span aria-hidden="true">↗</span></a
+            ><button
+              class="text-button"
+              type="button"
+              data-video="/assets/senderos-recorrido.mp4"
+              data-video-title="Así se aprende en Senderos"
+              data-video-poster="/assets/senderos-recorrido-poster.jpg"
+            >
+              <span class="play-circle" aria-hidden="true">▶</span> Un vistazo a
+              nuestro mundo
+            </button>
+          </div>
+          <div class="hero-footnote">
+            <svg aria-hidden="true">
+              <use href="/assets/garden-icons.svg#sprout" /></svg
+            ><span>Montessori + naturaleza + mucho amor</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-sage-shape" aria-hidden="true"></div>
+          <svg class="hero-sun float-slow" aria-hidden="true">
+            <use href="/assets/garden-icons.svg#sun" />
+          </svg>
+          <figure class="hero-photo">
+            <img
+              src="/assets/granjeritos-naturaleza.jpg"
+              alt="Granjeritos de Senderos descubriendo los animales junto a sus profes en la sede campestre"
+              width="1200"
+              height="1600"
+              fetchpriority="high"
+            />
+            <figcaption>
+              <span class="little-dot"></span> Aquí, aprender se siente así.
+            </figcaption>
+          </figure>
+          <div class="photo-stamp">
+            <svg aria-hidden="true">
+              <use href="/assets/garden-icons.svg#heart" /></svg
+            ><span
+              >Infancias libres,<br /><strong>raíces fuertes.</strong></span
+            >
+          </div>
+          <svg class="hero-flower" aria-hidden="true">
+            <use href="/assets/garden-icons.svg#flower" />
+          </svg>
+          <span class="hand-note">¡Hola, pequeño explorador!</span>
+        </div>
+      </section>
+
+      <div class="garden-transition" aria-hidden="true">
+        <img
+          src="/assets/garden-world.svg"
+          alt=""
+          width="1440"
+          height="350"
+        /><svg class="garden-trail" viewBox="0 0 1440 350">
+          <path d="M-40 240C180 20 370 340 660 160S1000 260 1490 60" /></svg
+        ><svg class="scroll-butterfly" viewBox="0 0 64 64">
+          <use href="/assets/garden-icons.svg#butterfly" />
+        </svg>
+      </div>
+
+      <div class="values-strip">
+        <div class="container">
+          <span>Aprender haciendo</span><i aria-hidden="true">✳</i
+          ><span>Crecer a su ritmo</span><i aria-hidden="true">✳</i
+          ><span>Conectar con la naturaleza</span><i aria-hidden="true">✳</i
+          ><span>Ser felices</span>
+        </div>
+      </div>
+
+      <section
+        class="essence section container"
+        id="esencia"
+        aria-labelledby="essence-title"
+      >
+        <div class="section-heading reveal">
+          <p class="eyebrow">NUESTRA ESENCIA</p>
+          <h2 id="essence-title">
+            La infancia no tiene prisa.<br /><span class="muted-heading"
+              >Tiene un mundo por descubrir.</span
+            >
+          </h2>
+        </div>
+        <div class="essence-grid">
+          <div class="essence-photo reveal">
+            <img
+              src="/assets/juego-al-aire-libre.jpg"
+              alt="Niños de Senderos jugando en el arenero rodeado de naturaleza"
+              width="1200"
+              height="1600"
+              loading="lazy"
+            />
+            <div class="photo-label">
+              Más juego. Más naturaleza. Más infancia.
+            </div>
+            <svg class="photo-flower" aria-hidden="true">
+              <use href="/assets/garden-icons.svg#flower" />
+            </svg>
+          </div>
+          <div class="essence-copy reveal">
+            <p class="lead">En Senderos, cada pregunta abre un camino.</p>
+            <p>
+              Combinamos la metodología Montessori con experiencias reales en la
+              huerta, la granja y al aire libre. Acompañamos a cada niño con
+              afecto, respetando su ritmo y celebrando lo que lo hace único.
+            </p>
+            <div class="principle">
+              <span class="principle-icon sage"
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#sprout" /></svg
+              ></span>
+              <div>
+                <h3>La naturaleza es nuestra aula</h3>
+                <p>
+                  Sembrar, cuidar y observar nos enseña a entender el mundo.
+                </p>
+              </div>
+              <span class="principle-number">01</span>
+            </div>
+            <div class="principle">
+              <span class="principle-icon peach"
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#bunny" /></svg
+              ></span>
+              <div>
+                <h3>Pequeños, cada vez más autónomos</h3>
+                <p>Un ambiente preparado para elegir, intentar y descubrir.</p>
+              </div>
+              <span class="principle-number">02</span>
+            </div>
+            <div class="principle">
+              <span class="principle-icon yellow"
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#heart" /></svg
+              ></span>
+              <div>
+                <h3>El amor acompaña cada paso</h3>
+                <p>Profes cercanas que hacen de cada día un lugar seguro.</p>
+              </div>
+              <span class="principle-number">03</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="stages-section section"
+        id="etapas"
+        aria-labelledby="stages-title"
+      >
+        <div class="container">
+          <div class="section-heading heading-row reveal">
+            <div>
+              <p class="eyebrow">UN CAMINO PARA CADA ETAPA</p>
+              <h2 id="stages-title">A su ritmo.<br />Con todo por delante.</h2>
+            </div>
+            <p>
+              Cada edad trae nuevas preguntas.<br />Y aquí hay espacio para
+              todas.
+            </p>
+          </div>
+          <div class="stages-grid">
+            <article class="stage-card stage-sage reveal">
+              <div class="stage-top">
+                <span>01 / EXPLORAR</span
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#sprout" />
+                </svg>
+              </div>
+              <span class="age-pill">18–24 meses</span>
+              <h3>Párvulos</h3>
+              <p>
+                Primeros descubrimientos, exploración sensorial y autonomía en
+                un entorno amoroso.
+              </p>
+              <button class="stage-link" type="button" data-program="Párvulos">
+                Conoce esta etapa <span aria-hidden="true">↗</span>
+              </button>
+            </article>
+            <article class="stage-card stage-yellow reveal">
+              <div class="stage-top">
+                <span>02 / IMAGINAR</span
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#sun" />
+                </svg>
+              </div>
+              <span class="age-pill">2 años</span>
+              <h3>Prejardín</h3>
+              <p>
+                Los sentidos, el movimiento y la curiosidad se encuentran para
+                aprender haciendo.
+              </p>
+              <button class="stage-link" type="button" data-program="Prejardín">
+                Conoce esta etapa <span aria-hidden="true">↗</span>
+              </button>
+            </article>
+            <article class="stage-card stage-pink reveal">
+              <div class="stage-top">
+                <span>03 / COMPARTIR</span
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#flower" />
+                </svg>
+              </div>
+              <span class="age-pill">3–4 años</span>
+              <h3>Jardín</h3>
+              <p>
+                Proyectos al aire libre para crear, conversar, cooperar y
+                descubrir en comunidad.
+              </p>
+              <button class="stage-link" type="button" data-program="Jardín">
+                Conoce esta etapa <span aria-hidden="true">↗</span>
+              </button>
+            </article>
+            <article class="stage-card stage-lilac reveal">
+              <div class="stage-top">
+                <span>04 / FLORECER</span
+                ><svg aria-hidden="true">
+                  <use href="/assets/garden-icons.svg#butterfly" />
+                </svg>
+              </div>
+              <span class="age-pill">4–5 años</span>
+              <h3>Transición</h3>
+              <p>
+                Lenguaje, pensamiento lógico y confianza para dar el siguiente
+                gran paso.
+              </p>
+              <button
+                class="stage-link"
+                type="button"
+                data-program="Transición"
+              >
+                Conoce esta etapa <span aria-hidden="true">↗</span>
+              </button>
+            </article>
+          </div>
+          <p class="stages-note">
+            ¿No sabes por dónde empezar?
+            <a href="#visitanos"
+              >Conversemos sobre tu pequeño <span aria-hidden="true">↗</span></a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="moments section container"
+        id="momentos"
+        aria-labelledby="moments-title"
+      >
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow">LA VIDA EN SENDEROS</p>
+            <h2 id="moments-title">
+              Manos ocupadas.<br /><span class="muted-heading"
+                >Corazones contentos.</span
+              >
+            </h2>
+          </div>
+          <a
+            class="underlined-link"
+            href="https://www.instagram.com/jardininfantilsenderos/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Síguenos en Instagram ↗</a
+          >
+        </div>
+        <div class="gallery-filters" role="group" aria-label="Filtrar momentos">
+          <button
+            class="filter active"
+            type="button"
+            data-filter="todos"
+            aria-pressed="true"
+          >
+            Todo nuestro mundo</button
+          ><button
+            class="filter"
+            type="button"
+            data-filter="naturaleza"
+            aria-pressed="false"
+          >
+            Naturaleza</button
+          ><button
+            class="filter"
+            type="button"
+            data-filter="granja"
+            aria-pressed="false"
+          >
+            Huerta y granja</button
+          ><button
+            class="filter"
+            type="button"
+            data-filter="creatividad"
+            aria-pressed="false"
+          >
+            Juego y creación
+          </button>
+        </div>
+        <p id="gallery-status" class="sr-only" aria-live="polite"></p>
+        <div class="moments-grid">
+          <button
+            class="moment moment-wide reveal"
+            type="button"
+            data-category="granja"
+            data-image="/assets/granja-aprendizaje.jpg"
+            data-caption="Aprender a cuidar, aprender a querer"
+          >
+            <img
+              src="/assets/granja-aprendizaje.jpg"
+              alt="Los granjeritos conocen a los animales de Senderos"
+              width="1600"
+              height="1200"
+              loading="lazy"
+            /><span class="moment-caption"
+              ><span>HUERTA Y GRANJA</span
+              ><strong>Aprender a cuidar,<br />aprender a querer.</strong
+              ><i aria-hidden="true">↗</i></span
+            >
+          </button>
+          <button
+            class="moment moment-tall reveal"
+            type="button"
+            data-category="naturaleza"
+            data-video="/assets/senderos-granja.mp4"
+            data-video-title="Pequeños momentos al aire libre"
+            data-video-poster="/assets/senderos-granja-poster.jpg"
+          >
+            <img
+              src="/assets/senderos-granja-poster.jpg"
+              alt="Ver video de una actividad al aire libre en Senderos"
+              width="720"
+              height="1280"
+              loading="lazy"
+            /><span class="video-play" aria-hidden="true">▶</span
+            ><span class="moment-caption"
+              ><span>DALE PLAY A LA INFANCIA</span
+              ><strong>Así se vive un día aquí.</strong></span
+            ><span class="video-duration">0:09</span>
+          </button>
+          <button
+            class="moment reveal"
+            type="button"
+            data-category="creatividad"
+            data-image="/assets/arte-creatividad.jpg"
+            data-caption="Crear también es descubrir"
+          >
+            <img
+              src="/assets/arte-creatividad.jpg"
+              alt="Experiencias artísticas y creativas en Senderos"
+              width="1200"
+              height="1600"
+              loading="lazy"
+            /><span class="moment-caption"
+              ><span>ARTE Y CREATIVIDAD</span
+              ><strong>Mil formas de expresarse.</strong
+              ><i aria-hidden="true">↗</i></span
+            >
+          </button>
+          <button
+            class="moment reveal"
+            type="button"
+            data-category="naturaleza"
+            data-image="/assets/instagram-huerta.jpg"
+            data-caption="Jugar al aire libre, imaginar sin límites · Instagram de Senderos"
+          >
+            <img
+              src="/assets/instagram-huerta.jpg"
+              alt="Niños construyendo con bloques en el jardín, fotografía del Instagram oficial"
+              width="3212"
+              height="5712"
+              loading="lazy"
+            /><span class="moment-caption"
+              ><span>DE NUESTRO INSTAGRAM</span
+              ><strong>Imaginar sin límites.</strong
+              ><i aria-hidden="true">↗</i></span
+            >
+          </button>
+        </div>
+        <div class="instagram-reel reveal">
+          <svg aria-hidden="true">
+            <use href="/assets/garden-icons.svg#hen" />
+          </svg>
+          <div>
+            <p>Una pequeña ventana a nuestro día a día</p>
+            <span
+              >Descubre la huerta, la granja y los pequeños grandes
+              logros.</span
+            >
+          </div>
+          <button
+            class="underlined-link"
+            id="instagram-video-button"
+            type="button"
+            data-video="/assets/instagram-huerta.mp4"
+            data-video-title="La huerta y la granja: experiencias con sentido"
+            data-video-poster="/assets/instagram-huerta.jpg"
+            data-video-source="https://www.instagram.com/jardininfantilsenderos/reel/DS0qjhxknhm/"
+          >
+            Ver reel de Senderos <span aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section
+        class="campus-section section"
+        id="sede"
+        aria-labelledby="campus-title"
+      >
+        <div class="container campus-grid">
+          <div class="campus-content reveal">
+            <p class="eyebrow">RESPIRA. ESTÁS EN SENDEROS.</p>
+            <h2 id="campus-title">Un jardín.<br />En todos los sentidos.</h2>
+            <p>
+              En Cerritos, Pereira, tenemos un lugar donde el verde se vive, la
+              curiosidad encuentra espacio y cada rincón invita a explorar.
+            </p>
+            <div class="campus-stat">
+              <strong>2.000<span>m²+</span></strong
+              ><span>de naturaleza para<br />crecer y descubrir</span>
+            </div>
+            <div class="campus-service">
+              <svg aria-hidden="true">
+                <use href="/assets/garden-icons.svg#bus" />
+              </svg>
+              <div>
+                <h3>El camino también está cuidado</h3>
+                <p>
+                  Transporte propio de la institución, con recorridos
+                  acompañados y supervisados.
+                </p>
+              </div>
+            </div>
+            <a
+              class="button button-light"
+              href="https://maps.google.com/?q=JARDIN+INFANTIL+SENDEROS+PEREIRA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Encuentra nuestro jardín <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="campus-photo reveal">
+            <img
+              src="/assets/jardin-panorama.jpg"
+              alt="Sede campestre de Senderos en Cerritos, con amplias zonas verdes y salones abiertos hacia el jardín"
+              width="1600"
+              height="1200"
+              loading="lazy"
+            /><span class="location-pill"
+              ><svg aria-hidden="true">
+                <use href="/assets/garden-icons.svg#pin" />
+              </svg>
+              Cerritos, Pereira</span
+            ><span class="campus-note"
+              >Aquí caben todas<br />sus grandes ideas.</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="team section container"
+        id="equipo"
+        aria-labelledby="team-title"
+      >
+        <div class="section-heading heading-row reveal">
+          <div>
+            <p class="eyebrow">MANOS QUE GUÍAN. CORAZONES QUE ACOMPAÑAN.</p>
+            <h2 id="team-title">Crecer bien acompañado.</h2>
+          </div>
+          <p>
+            Vocación, experiencia y una mirada<br />amorosa para cada
+            granjerito.
+          </p>
+        </div>
+        <div class="team-grid">
+          <article class="team-member reveal">
+            <div class="team-image team-sage">
+              <img
+                src="/assets/stella-sanabria.png"
+                alt="Stella Sanabria Diago, fundadora de Senderos"
+                width="500"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <span class="team-role">FUNDADORA</span>
+            <h3>Stella Sanabria Diago</h3>
+            <p>
+              Licenciada en Educación Preescolar.<br />Más de 30 años de
+              experiencia.
+            </p>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-image team-peach">
+              <img
+                src="/assets/salome-patino.png"
+                alt="Salomé Patiño Vásquez, docente de Senderos"
+                width="500"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <span class="team-role">EXPLORACIÓN Y JUEGO</span>
+            <h3>Salomé Patiño Vásquez</h3>
+            <p>
+              Licenciada en Educación Preescolar.<br />Juego, arte y primera
+              infancia.
+            </p>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-image team-yellow">
+              <img
+                src="/assets/laura-catano.png"
+                alt="Laura Tatiana Cataño García, docente de Senderos"
+                width="500"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <span class="team-role">DESARROLLO INTEGRAL</span>
+            <h3>Laura Tatiana Cataño</h3>
+            <p>
+              Licenciada en Pedagogía Infantil.<br />Especialista en Gerencia
+              Educativa.
+            </p>
+          </article>
+          <article class="team-member reveal">
+            <div class="team-image team-pink">
+              <img
+                src="/assets/daniela-nieto.png"
+                alt="Daniela Nieto Burítica, docente de Senderos"
+                width="500"
+                height="600"
+                loading="lazy"
+              />
+            </div>
+            <span class="team-role">AUTONOMÍA Y DESCUBRIMIENTO</span>
+            <h3>Daniela Nieto Burítica</h3>
+            <p>
+              Licenciada en Pedagogía Infantil.<br />Experiencia en enfoque
+              Montessori.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="faq-section section container"
+        aria-labelledby="faq-title"
+      >
+        <div class="faq-intro reveal">
+          <svg aria-hidden="true">
+            <use href="/assets/garden-icons.svg#bunny" />
+          </svg>
+          <p class="eyebrow">LAS PREGUNTAS TAMBIÉN SON DE LOS GRANDES</p>
+          <h2 id="faq-title">Antes de dar<br />el primer paso.</h2>
+          <a
+            class="underlined-link"
+            href="https://wa.me/573151799124?text=Hola%2C%20quiero%20conocer%20m%C3%A1s%20sobre%20Senderos."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Resolvamos tus dudas ↗</a
+          >
+        </div>
+        <div class="faq-list reveal">
+          <details>
+            <summary>
+              ¿Desde qué edad pueden ingresar?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Recibimos niños desde los 18 meses. Tenemos Párvulos, Prejardín,
+              Jardín y Transición, con procesos acordes a cada etapa hasta los 5
+              años.
+            </p>
+          </details>
+          <details>
+            <summary>
+              ¿Cómo aprenden en Senderos?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Integramos el enfoque Montessori con el aprendizaje experiencial.
+              El juego, el arte, la huerta y la granja acompañan el desarrollo
+              de la autonomía, la empatía y la curiosidad.
+            </p>
+          </details>
+          <details>
+            <summary>
+              ¿Tienen transporte propio?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              Sí. La institución cuenta con transporte propio y recorridos
+              supervisados. Escríbenos para consultar cobertura, disponibilidad
+              y condiciones de la ruta para tu familia.
+            </p>
+          </details>
+          <details>
+            <summary>
+              ¿Cómo conozco las tarifas y los horarios?<span aria-hidden="true"
+                >+</span
+              >
+            </summary>
+            <p>
+              Nuestro equipo te comparte las tarifas, jornadas y disponibilidad
+              según la etapa de tu pequeño. Puedes solicitar información por
+              WhatsApp o coordinar una visita al jardín.
+            </p>
+          </details>
+          <details>
+            <summary>
+              ¿Podemos visitar la sede?<span aria-hidden="true">+</span>
+            </summary>
+            <p>
+              ¡Nos encantará conocerte! Completa el formulario para preparar tu
+              solicitud por WhatsApp. El equipo de Senderos te ayudará a
+              coordinar la visita y resolver tus preguntas.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section
+        class="visit-section section"
+        id="visitanos"
+        aria-labelledby="visit-title"
+      >
+        <div class="container visit-grid">
+          <div class="visit-copy reveal">
+            <p class="eyebrow">EL PRIMER PASO LO DAMOS JUNTOS</p>
+            <h2 id="visit-title">
+              Ven a sentir<br />lo que nos<br /><span class="hand-underline"
+                >hace Senderos.</span
+              >
+            </h2>
+            <p>
+              Conoce el lugar, a nuestras profes y una forma de acompañar la
+              infancia con los pies en la tierra.
+            </p>
+            <div class="visit-address">
+              <svg aria-hidden="true">
+                <use href="/assets/garden-icons.svg#pin" />
+              </svg>
+              <address>
+                Km 6 vía Pereira–Cerritos<br />Entrada 3 Los Lagos, Casa 17<br /><strong
+                  >Pereira, Risaralda</strong
+                >
+              </address>
+            </div>
+            <svg class="visit-flower" aria-hidden="true">
+              <use href="/assets/garden-icons.svg#flower" />
+            </svg>
+          </div>
+          <form class="visit-form reveal" id="visit-form">
+            <span class="form-kicker">HABLEMOS DE TU PEQUEÑO</span>
+            <h3>Todo empieza con un hola.</h3>
+            <p>Cuéntanos un poquito y conversemos.</p>
+            <label for="parent-name"
+              >Tu nombre<input
+                id="parent-name"
+                name="parentName"
+                type="text"
+                placeholder="¿Cómo te llamas?"
+                autocomplete="given-name"
+                maxlength="60"
+                required /></label
+            ><label for="program"
+              >Etapa que te interesa<select
+                id="program"
+                name="program"
+                required
+              >
+                <option value="">Selecciona una etapa</option>
+                <option value="Párvulos">Párvulos · 18–24 meses</option>
+                <option value="Prejardín">Prejardín · 2 años</option>
+                <option value="Jardín">Jardín · 3–4 años</option>
+                <option value="Transición">Transición · 4–5 años</option>
+                <option value="Orientación">Quiero que me orienten</option>
+              </select></label
+            ><label for="interest"
+              >¿Qué te gustaría conocer?<select id="interest" name="interest">
+                <option value="coordinar una visita">
+                  Quiero visitar el jardín
+                </option>
+                <option value="conocer tarifas y horarios">
+                  Tarifas y horarios
+                </option>
+                <option value="consultar el transporte">
+                  Transporte y cobertura
+                </option>
+                <option value="conocer las vacaciones recreativas">
+                  Vacaciones recreativas
+                </option>
+              </select></label
+            ><button class="button form-submit" type="submit">
+              Conversemos por WhatsApp <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-note">
+              Se abrirá WhatsApp con tu mensaje preparado.<br />Tú decides
+              cuándo enviarlo.
+            </p>
+            <p class="sr-only" id="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-top">
+        <a
+          href="#inicio"
+          class="footer-brand"
+          aria-label="Senderos, volver al inicio"
+          ><img
+            src="/assets/senderos-logo.png"
+            alt="Jardín Infantil Senderos"
+            width="260"
+            height="87"
+        /></a>
+        <p>
+          Sembramos curiosidad.<br /><strong
+            >Cultivamos infancias felices.</strong
+          >
+        </p>
+        <a
+          class="footer-instagram"
+          href="https://www.instagram.com/jardininfantilsenderos/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Nos vemos en Instagram <span aria-hidden="true">↗</span></a
+        >
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Jardín Infantil Senderos · Pereira</span
+        ><a
+          href="https://jardininfantilsenderos.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Sitio actual de Senderos ↗</a
+        ><span>Propuesta de diseño web</span
+        ><button type="button" class="motion-toggle" aria-pressed="false">
+          Pausar animaciones
+        </button>
+      </div>
+    </footer>
+    <a
+      class="floating-contact"
+      href="https://wa.me/573151799124?text=Hola%2C%20quiero%20conocer%20Senderos."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Hablar con Senderos por WhatsApp"
+      ><svg viewBox="0 0 32 32" aria-hidden="true">
+        <path
+          d="M26.2 5.8A14 14 0 0 0 4 22.7L2 30l7.5-2A14 14 0 0 0 26.2 5.8Z"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+        />
+        <path
+          d="M11 9c-.6-.3-1.4-.2-1.8.6-2 3.6 2.6 9.7 7.1 12 2.4 1.2 5.5.8 6.2-1.4.2-.5.2-.8-.3-1.1l-3.2-1.5c-.4-.1-.6 0-.8.3l-1.1 1.3c-.2.3-.5.3-.8.2-2.2-1-4-2.6-5-4.6-.2-.3-.2-.5.1-.8l.9-1.1c.2-.3.3-.6.1-1l-1.4-2.7Z"
+          fill="currentColor"
+        /></svg
+    ></a>
+
+    <dialog
+      class="media-dialog"
+      id="media-dialog"
+      aria-labelledby="media-title"
+    >
+      <button class="dialog-close" type="button" aria-label="Cerrar contenido">
+        ×
+      </button>
+      <div class="media-stage" id="media-stage"></div>
+      <div class="dialog-caption">
+        <h2 id="media-title"></h2>
+        <p id="media-sound-note" hidden>
+          Vista previa sin audio. Escucha el reel completo en Instagram.
+        </p>
+        <a
+          id="media-source"
+          href="https://www.instagram.com/jardininfantilsenderos/"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+          >Ver publicación original ↗</a
+        >
+        <p id="media-error" role="status" hidden>
+          No se pudo reproducir el video. Puedes ver la publicación original en
+          Instagram.
+        </p>
+      </div>
+    </dialog>
+  </body>
+</html>
