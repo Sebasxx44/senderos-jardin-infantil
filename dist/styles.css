@@ -58,6 +58,17 @@ svg {
   height: 32px;
   flex: none;
 }
+.ui-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  vertical-align: middle;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 h1,
 h2,
 h3,
@@ -176,14 +187,23 @@ summary:focus-visible {
   transform: translateY(-2px);
 }
 .button > span {
-  font-size: 23px;
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
+}
+.button .ui-icon {
+  width: 22px;
+  height: 22px;
 }
 .button-small {
   padding: 13px 22px;
   gap: 24px;
   min-height: 47px;
   font-size: 12px;
+}
+.button-small .ui-icon {
+  width: 20px;
+  height: 20px;
 }
 .button-light {
   background: var(--cream);
@@ -210,9 +230,12 @@ summary:focus-visible {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 10px;
-  padding-left: 2px;
   transition: background 0.2s;
+}
+.play-circle .ui-icon {
+  width: 18px;
+  height: 18px;
+  transform: translateX(1px);
 }
 .text-button:hover .play-circle {
   background: var(--sage);
@@ -230,6 +253,10 @@ summary:focus-visible {
 }
 .underlined-link:hover {
   color: #8b562f;
+}
+.underlined-link .ui-icon {
+  width: 16px;
+  height: 16px;
 }
 .muted-heading {
   color: #89977e;
@@ -284,7 +311,8 @@ body {
 }
 .tiny-flower {
   color: var(--yellow);
-  font-size: 20px;
+  width: 18px;
+  height: 18px;
   line-height: 1;
 }
 .announcement-location {
@@ -587,15 +615,23 @@ body {
   justify-content: space-between;
   gap: 20px;
 }
-.values-strip span {
+.values-strip .container > span {
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 0.005em;
 }
 .values-strip i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   color: #879b68;
   font-style: normal;
-  font-size: 27px;
+  line-height: 1;
+}
+.values-strip i .ui-icon {
+  width: 24px;
+  height: 24px;
 }
 
 /* ==================== ESSENCE ==================== */
@@ -785,7 +821,12 @@ body {
   gap: 10px;
 }
 .stage-link span {
-  font-size: 21px;
+  display: inline-flex;
+  align-items: center;
+}
+.stage-link .ui-icon {
+  width: 16px;
+  height: 16px;
 }
 .stages-note {
   text-align: center;
@@ -895,11 +936,16 @@ body {
   padding-right: 22px;
 }
 .moment-caption i {
+  display: inline-flex;
+  align-items: center;
   font-style: normal;
-  font-size: 26px;
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.moment-caption .ui-icon {
+  width: 16px;
+  height: 16px;
 }
 .moment-tall .moment-caption strong {
   font-size: 22px;
@@ -918,9 +964,12 @@ body {
   place-items: center;
   color: white;
   border-radius: 50%;
-  font-size: 18px;
-  padding-left: 5px;
   z-index: 2;
+}
+.video-play .ui-icon {
+  width: 24px;
+  height: 24px;
+  transform: translateX(1px);
 }
 .video-duration {
   position: absolute;
@@ -962,7 +1011,7 @@ body {
   font-weight: 450;
   letter-spacing: -0.02em;
 }
-.instagram-reel span {
+.instagram-reel > div > span {
   color: var(--muted);
   font-size: 11px;
 }
@@ -1204,10 +1253,15 @@ body {
   display: none;
 }
 .faq-list summary > span {
-  font-family: var(--font-body);
-  font-size: 22px;
-  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
   transition: transform 0.2s;
+}
+.faq-list summary .ui-icon {
+  width: 24px;
+  height: 24px;
 }
 .faq-list details[open] summary > span {
   transform: rotate(45deg);
@@ -1385,7 +1439,12 @@ body {
   align-items: center;
 }
 .footer-instagram span {
-  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+}
+.footer-instagram .ui-icon {
+  width: 16px;
+  height: 16px;
 }
 .footer-bottom {
   display: flex;
@@ -1455,12 +1514,15 @@ body {
   background: var(--cream);
   color: var(--forest);
   border-radius: 50%;
-  font-size: 28px;
   line-height: 1;
   display: grid;
   place-items: center;
   z-index: 5;
   box-shadow: 0 1px 10px #0002;
+}
+.dialog-close .ui-icon {
+  width: 20px;
+  height: 20px;
 }
 .media-stage {
   display: flex;
@@ -1777,11 +1839,12 @@ body {
     gap: 12px;
     min-height: 64px;
   }
-  .values-strip span {
+  .values-strip .container > span {
     font-size: 10px;
   }
-  .values-strip i {
-    font-size: 22px;
+  .values-strip i .ui-icon {
+    width: 22px;
+    height: 22px;
   }
   .section {
     padding-block: 80px;
@@ -1883,7 +1946,7 @@ body {
   .instagram-reel p {
     font-size: 16px;
   }
-  .instagram-reel span {
+  .instagram-reel > div > span {
     font-size: 10px;
   }
   .instagram-reel .underlined-link {
@@ -1986,6 +2049,18 @@ body {
   }
 }
 @media (max-width: 720px) {
+  .button .ui-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .button-small .ui-icon {
+    width: 18px;
+    height: 18px;
+  }
+  .underlined-link .ui-icon {
+    width: 14px;
+    height: 14px;
+  }
   :root {
     scroll-padding-top: 91px;
   }
@@ -2014,9 +2089,6 @@ body {
     font-size: 10px;
     min-height: 40px;
     padding: 10px 15px;
-  }
-  .header-cta > span {
-    font-size: 19px;
   }
   .menu-toggle {
     display: flex;
@@ -2177,13 +2249,13 @@ body {
     min-height: 85px;
     padding-block: 14px;
   }
-  .values-strip span {
+  .values-strip .container > span {
     text-align: center;
     font-size: 10px;
   }
-  .values-strip i {
-    font-size: 20px;
-    line-height: 1;
+  .values-strip i .ui-icon {
+    width: 20px;
+    height: 20px;
   }
   .values-strip i:nth-of-type(2) {
     display: none;
@@ -2300,9 +2372,6 @@ body {
     font-size: 10px;
     padding-top: 15px;
   }
-  .stage-link span {
-    font-size: 18px;
-  }
   .stages-note {
     font-size: 11px;
     max-width: 280px;
@@ -2361,13 +2430,9 @@ body {
   .moment-tall .moment-caption strong {
     font-size: 25px;
   }
-  .moment-caption i {
-    font-size: 22px;
-  }
   .video-play {
     width: 54px;
     height: 54px;
-    font-size: 15px;
   }
   .video-duration {
     top: 14px;
@@ -2400,7 +2465,7 @@ body {
     line-height: 1.25;
     margin-bottom: 5px;
   }
-  .instagram-reel span {
+  .instagram-reel > div > span {
     font-size: 10px;
     line-height: 1.6;
     display: block;
@@ -2414,7 +2479,10 @@ body {
     display: flex;
   }
   .instagram-reel .underlined-link span {
-    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    color: inherit;
+    line-height: 1;
   }
   .campus-grid {
     grid-template-columns: 1fr;
